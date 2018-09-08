@@ -1,5 +1,5 @@
 # IBM-RPG
-Contains notes/examples for learning about the AS/400 and the RPG programming language.
+Contains notes/examples/programs for learning how to code with IBM RPG
 
 
 ## Files
@@ -9,11 +9,6 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 
 
 ## Sources
-* Pocket Guide: [The AS/400 and IBM i Pocket Developers Guide](https://www.amazon.com/400-IBM-Pocket-Developers-Guide-ebook/dp/B01MCT9A3X/ref=sr_1_sc_1?ie=UTF8&qid=1536415669&sr=8-1-spell)
-* http://www.code400.com/forum/
-* https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a
-* http://www.rpgpgm.com/p/list-of-all-posts.html
-
 <details>
   <summary>
     <b>Book 01</b>
@@ -71,4 +66,7 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 <li> Lesson 11 - Using SDA </li>
 <li> Lesson 12 - Getting Started with CL Programming </li>
 </details>
+* http://www.code400.com/forum/
+* https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a
+* http://www.rpgpgm.com/p/list-of-all-posts.html
 
