@@ -7,8 +7,15 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 * https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a
 * http://www.rpgpgm.com/p/list-of-all-posts.html
 
+## Files
+| **File Name** | **Description** |
+| ------------------ | --------------- |
+| RPG-Book-01-Notes.md | Notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
+
+
 <details>
   <summary>
+    <b>Book 01</b>
     <a href="https://www.amazon.com/gp/product/0998268313/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">
       The AS/400 & IBMi RPG & RPGIV Developer's Guide
     </a>
@@ -45,6 +52,7 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 </details>
 <details>
   <summary>
+    <b>Book 02</b>
     <a href="https://www.amazon.com/gp/product/1583040706/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">
       Mastering the AS/400: A Practical Hands-On Guide
     </a>
@@ -62,3 +70,4 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 <li> Lesson 11 - Using SDA </li>
 <li> Lesson 12 - Getting Started with CL Programming </li>
 </details>
+
