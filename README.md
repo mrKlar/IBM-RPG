@@ -1,2 +1,64 @@
 # IBM-RPG
 Contains notes/examples for learning about the AS/400 and the RPG programming language.
+
+## Sources
+* Pocket Guide: [The AS/400 and IBM i Pocket Developers Guide](https://www.amazon.com/400-IBM-Pocket-Developers-Guide-ebook/dp/B01MCT9A3X/ref=sr_1_sc_1?ie=UTF8&qid=1536415669&sr=8-1-spell)
+* http://www.code400.com/forum/
+* https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a
+* http://www.rpgpgm.com/p/list-of-all-posts.html
+
+<details>
+  <summary>
+    <a href="https://www.amazon.com/gp/product/0998268313/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">
+      The AS/400 & IBMi RPG & RPGIV Developer's Guide
+    </a>
+  </summary>
+  <li> Chapter 01 - Introduction to the RPG Language </li>
+  <li> Chapter 02 - The History of the RPG Language </li>
+  <li> Chapter 03 - Understanding the RPG Fixed Logic Cycle </li>
+  <li> Chapter 04 - Developing RPG Applications </li>
+  <li> Chapter 05 - Your First RPG Program </li>
+  <li> Chapter 06 - The Specifics of RPG Coding - Control Spec. </li>
+  <li> Chapter 07 - The Specifics of RPG Coding - File Desc. & Line Counter </li>
+  <li> Chapter 08 - The Specifics of RPG Coding - Input By Example </li>
+  <li> Chapter 09 - The Specifics of RPG Coding - Input Structures, Constants </li>
+  <li> Chapter 10 - The Specifics of RPG Coding - Calculations By Example </li>
+  <li> Chapter 11 - The Specifics of RPG Coding - Output By Example </li>
+  <li> Chapter 12 - Decoding and Debugging RPG Programs </li>
+  <li> Chapter 13 - Introduction to RPGIV </li>
+  <li> Chapter 14 - RPG (/400) Operations </li>
+  <li> Chapter 15 - RPGIV Operations and Built-In Functions </li>
+  <li> Chapter 16 - RPG Arrays and Programming Structures </li>
+  <li> Chapter 17 - RPG Data Structures </li> 
+  <li> Chapter 18 - String Coding In RPG </li>
+  <li> Chapter 19 - RPG/400 & RPGIV Structured Programming </li>
+  <li> Chapter 20 - Interactive RPG Programming </li>
+  <li> Chapter 21 - RPG Subfile Programming </li>
+  <li> Chapter 22 - RPG Database & Inter-Program Operations in Action </li>
+  <li> Chapter 23 - Case Study Part I: RPG Operations in Action </li> 
+  <li> Chapter 24 - Case Study Part II: RPG Operations in Action </li>
+  <li> Chapter 25 - ILE & Static Binding </li>
+  <li> Chapter 26 - RPGIV Procedures and Functions </li>
+  <li> Chapter 27 - Free Format RPG/FREE </li>
+  <li> Chapter 28 - Using Embedded SQL in RPG Programs </li> 
+  <li> Chapter 29 - Last Chapter - Latest & Greatest in RPGIV </li>
+</details>
+<details>
+  <summary>
+    <a href="https://www.amazon.com/gp/product/1583040706/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">
+      Mastering the AS/400: A Practical Hands-On Guide
+    </a>
+  </summary>
+<li> Lesson 01 - Communicating with the System </li>
+<li> Lesson 02 - Using CL </li>
+<li> Lesson 03 - Objects </li>
+<li> Lesson 04 - Handling Spooled Files </li>
+<li> Lesson 05 - Describing a Database File </li> 
+<li> Lesson 06 - Creating and Using an Externally Described Database File </li>
+<li> Lesson 07 - Introduction to Query/400 </li>
+<li> Lesson 08 - Using Logical Files </li>
+<li> Lesson 09 - Additional Database Facilities </li>
+<li> Lesson 10 - Using DFU and SQL </li>
+<li> Lesson 11 - Using SDA </li>
+<li> Lesson 12 - Getting Started with CL Programming </li>
+</details>
