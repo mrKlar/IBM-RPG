@@ -66,7 +66,9 @@ Contains notes/examples/programs for learning how to code with IBM RPG
 <li> Lesson 11 - Using SDA </li>
 <li> Lesson 12 - Getting Started with CL Programming </li>
 </details>
-* http://www.code400.com/forum/
-* https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a
-* http://www.rpgpgm.com/p/list-of-all-posts.html
 
+<ul>
+<li> http://www.code400.com/forum/ </li>
+<li> https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a </li>
+<li> http://www.rpgpgm.com/p/list-of-all-posts.html </li>
+</ul>
