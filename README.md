@@ -5,7 +5,7 @@ Contains notes/examples for learning about the AS/400 and the RPG programming la
 ## Files
 | **File Name** | **Description** |
 | ------------------ | --------------- |
-| RPG-Book-01-Notes.md | Notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
+| [RPG-Book-01-Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/RPG-Book-01-Notes.md) | Notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
 
 
 ## Sources
