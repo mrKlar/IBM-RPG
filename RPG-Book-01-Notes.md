@@ -1,10 +1,8 @@
 # The AS/400 & IBMi RPG & RPGIV Developer's Guide
-
 My attempt at recording useful notes from the following textbook: <br>
 [The AS/400 & IBMi RPG & RPGIV Developer's Guide by Brian W. Kelly](https://www.amazon.com/gp/product/0998268313/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
 
 
-***
 ## Chapter 01 - Introduction to the RPG Language
 * **RPG** - Report Program Generator
   * IBM - 1959
@@ -13,7 +11,6 @@ My attempt at recording useful notes from the following textbook: <br>
   * Business application programming language for small to medium sized businesses.
 
 
-***
 ## Chapter 02 - The History of the RPG Language
 (Not the full history, but some of the highlights)
 * **RPG I** - 1959/1960
@@ -37,6 +34,5 @@ My attempt at recording useful notes from the following textbook: <br>
   * Free format RPG specifications with support for free-form SQL statements
 
 
-***
 ## Chapter 03 - Understanding the RPG Fixed Logic Cycle
 * 
