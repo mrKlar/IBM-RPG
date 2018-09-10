@@ -35,4 +35,31 @@ My attempt at recording useful notes from the following textbook: <br>
 
 
 ## Chapter 03 - Understanding the RPG Fixed Logic Cycle
-* 
+ Using the fixed logic cycle essentially turns your code into a huge INPUT > PROCESS > OUTPUT cycle.
+
+**Steps of the RPG Fixed Logic Cycle:**
+1. Start
+2. Write heading and detail lines
+3. Get input record
+4. Perform total calculations
+5. Write total output
+6. If **LR (Last Record) indicator** is not on
+    * Move fields
+    * Perform detail calculations
+    * Return to Start
+7. Else
+    * End of Program 
+
+**Matching Records**
+  * Given file1- master payroll records
+  * Given file2- time cards
+  * Both files have a field called EMPNO (employee number)
+  * The program should read employee 1 from the master payroll and then employee 1's timecard from file2. Then, it can perform calculations, etc.
+  * A **designator (M1-M9)** can be placed on field names of multiple files to designate the matching fields.
+  * Adding to the payroll example, EMPNO would be marked in both files of the RPG program input specs with the M1 designator.
+  * Then, RPG makes sure both files are in sequence by EMPNO and when a match is found, the **MR (Matching Record) indicator** is turned on
+
+**Indicators**
+  * RPG provides 99 indications to use. The indication can be stored to a special type of field known as an **indicator**.
+  * Indicators can be assigned to records in files.
+  * If the payroll file gets spec to turn on indicator 01 and the time card gets spec to turn on indicator 02, when payroll file is read only indicator 01 will be on. Only one record identifying indicator can be on at a time since RPG only processes one record every cycle.
