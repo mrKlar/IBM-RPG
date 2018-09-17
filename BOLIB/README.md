@@ -7,8 +7,8 @@ Barrett's test library
 ## Objects
 | **Object**  | **Type** | **Attribute**  | **Text**                          |  **Link**  |
 | ----------- | -------- | -------------- | --------------------------------- | ---------- |
-| HELLOLE     | *PGM     | RPGLE          | Hello World in RPGLE              | [Source]() |
-| QRPGLESRC   | *FILE    | PF-SRC         | RPGLE Source                      |            |
+| HELLOLE     | *PGM     | RPGLE          | Hello World in RPGLE              | [Source](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QRPGLESRC/hellole.rpgle) |
+| QRPGLESRC   | *FILE    | PF-SRC         | RPGLE Source                      | [Source](https://github.com/barrettotte/RPGLE/tree/master/BOLIB/QRPGLESRC) |
 
 
 <br>
@@ -17,5 +17,5 @@ Barrett's test library
 ## File . . . . . . QRPGLESRC
 | **Member**    | **Type** | **Text**                                  | **Link**   |
 | ------------- | -------- | ----------------------------------------- | ---------- |
-| HELLOLE       | RPGLE    | Hello World in RPGLE                      | [Source]() |
+| HELLOLE       | RPGLE    | Hello World in RPGLE                      | [Source](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QRPGLESRC/hellole.rpgle) |
 | TEST          | TXT      | Testing                                   |            |
