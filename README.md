@@ -1,10 +1,10 @@
 # IBM-RPG
-Contains notes/examples/programs for learning how to code with IBM RPG
-
+Contains notes/examples/programs for learning how to code with IBM RPG. Code found in [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB)
 
 ## Files
 | **File Name** | **Description** |
 | ------------------ | --------------- |
+| [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB) | Small source files written while learning |
 | [RPG-Book-01-Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/RPG-Book-01-Notes.md) | Notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
 
 
@@ -66,9 +66,3 @@ Contains notes/examples/programs for learning how to code with IBM RPG
 <li> Lesson 11 - Using SDA </li>
 <li> Lesson 12 - Getting Started with CL Programming </li>
 </details>
-
-<ul>
-<li> http://www.code400.com/forum/ </li>
-<li> https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a </li>
-<li> http://www.rpgpgm.com/p/list-of-all-posts.html </li>
-</ul>
