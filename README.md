@@ -7,7 +7,7 @@ Obviously, these notes aren't great. But, I figured I would make these as a self
 | **Name** | **Description** |
 | ------------------ | --------------- |
 | [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB) | Small source files written while learning |
-| [RPG-Book-01-Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/RPG-Book-01-Notes.md) | Subpar notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
+| [Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes.md) | Subpar notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide |
 
 
 ## Sources
