@@ -240,3 +240,111 @@ Methods:
 * A control specification included in source with H in column 6
 * A data area named RPGLEHSPEC in *LIBL
 * A data area named DFTLEHSPEC in QRPGLE
+
+
+
+## File Description and Line Counter
+
+File description specifications describe all the files a program uses. For each file, the following information will be specified:
+* Name of file
+* How the file is used
+* Size of records in file
+* Input or output device used for the file
+* If the file is conditioned by an external indicator
+
+Internally described data
+```
+F*
+F*  RPG FILE DESCRIPTION SPECIFICATION FORMS
+F*
+FEMPMAST IPEAE                    DISK
+FTIMCRD  ISEAE                    DISK
+FQPRINT  O   F      77     OF     PRINTER
+```
+
+## File Description Specfications
+| **Cols RPG, Cols RPGIV** | **Description** | **Notes**                                |
+| ------------ | -----------------------------| ---------------------------------------- |
+| 7-14, 7-16   | File Name                    | Unique, 1-8 chars starts w/letter. RPGIV 10 chars |
+| 15, 17       | File Type                    | I=Input, O=Output, U=Update, C=Combined(I/O) |
+| 16, 18       | File Designation             | Notes below                              |
+| 17, 19       | End of File                  | E=All records must be processed before EOF, Blank=Does not have to be fully processed |
+| 18, 21       | Sequence                     | A=Match fields Ascending, Blank=A, D=Match fields Descending |
+| 19, 22       | File Format                  | F=Program described, E=Externally Described |
+| 20-23        | Reserved                     | Must be blank                            |
+| 24-27,23-27  | Record Length                | Length of LFs in program described files |
+| 28-39        | Other Entries ?              | ?                                        |
+| 28, 28       | Limits Processing            | L=Sequential-within-limits processing by record-address file, Blank=Sequential or random processing |
+| 29-30, 29-33 | Length of Key or Record Address | Used for program described keyed database file | 
+| 31, 34       | Record Address File Type     | Notes Below                              | 
+| 32, 35       | File Organization            | Blank=without keys (external), I=Index file (program-described), T=Record address file - relative-record numbers (program-described) |
+| 33-34        | Overflow Indicator           | Blank=None, OA-OG OV= , 01-99=           |
+| 35-38        | Key Field Starting Location  | Internally described only. Blank=none, 1-9999=Record position in program described index file. |
+| 39           | Extension Code               | Hold more file description data. Blank=none, E=Extension specs further describe, L=Line counter spec further describes |
+| 40-46, 37-42 | Device                       | PRINTER, DISK, WORKSTN, SPECIAL |
+| 47-52        | Reserved                     | Must be blank                   |
+| 53           | Continuation Lines           | K = continuation                |
+| 54-59        | Routine                      | For SPECIAL Device              |
+| 60-65        | Reserved                     | Must be blank                   |
+| 66           | File Addition                | A=Records will be added, Blank=None |
+| 67-70        | Reserved                     | Must be blank                   |
+| 71-72        | File Condition               | External program switch. Blank=if input>open, U1-U8(User)=File is used only when indicator is on, UC=Programer controlled first open of file |
+| 73-74        | Reserved                     | Must be blank                   |
+| 75-80        | Comments                     |                                 |
+
+### File Designation Types
+| **Letter** | **Name**             | **Description**                          |
+| ---------- | -------------------- | -----------------------------------------|
+| Blank      | Output File          |                                          |
+| P          | Primary File         |                                          |
+| S          | Secondary File       |                                          |
+| R          | Record Address File  | Sequentially organized file for selecting records from another file. Logical files have mostly replaced their usefulness. |
+| T          | Array or Table File  | Small files often used for codes.        |            
+| F          | Full Procedural File | Gives the programmer full procedural control of the program. |
+
+### Record Address File Types
+| **Letter** | **Description**                                                 |
+| ---------- | --------------------------------------------------------------- |
+| Blank      | Relative record numbers, consecutive read, all keys same format |
+| A          | Character keys - valid only for program-described files specified as indexed files or record-address-limits file |
+| P          | Packed keys - valid only for program-described files specified as indexed files or record-address-limits file |
+| K          | Key values are used to process the file. Only for externally described files. |
+
+### FC File Description Continuation Lines
+There is a huge table starting on Page 97, I am not copying it over
+
+
+## RPGIV File Descripton Keywords
+| **Keyword/Sample**          | **Other Options**   | **Description*                  |
+| --------------------------- | ------------------- | ------------------------------- |
+| BLOCK(*YES)                 | *NO                 | Should records from this file be processed in a block? |
+| COMMIT(YESORNO)             | RPG_NAME            | Enable commit with a "1" value |
+| DATFMT(*ISO)                | Format{separator}   | Specifies date format          |
+| DEVID(devname)              | Field name          | Name for device supplying the last record processed |
+| EXTFILE(BOLIB/HELRPG)       | Filename; libname/filename | Specify external file name |
+| EXTIND(*INU1)               | (*INUx)             | Open file f ext. indicator on |
+| EXTMBR(MEMBER2)             | *First; *All, member name | Specify member name in file to open |
+| FORMLEN(50)                 | number              | Specify form length in lines for line counter function |
+| FORMOFL(44)                 | number              | Specify line # which turns overflow indicator on |
+| IGNORE(RFMT01:RFMT02)       | (recformat{:recformat...}) | Ignore one or many record formats from this file |
+| INCLUDE(RFMT01:RFMT02)      | (recformat{:recformat...}) | Include one or many record formats from this file |
+| INDDS(INDICATORS)           | DS_Name             | Load workstation indicators into this structure during execution |
+| INFDS(FEEDBACK)             | DS_Name             | Name the info DS that will be associated with this file |
+| INFSR(SUBNAME)              | *PSSR;(SUBRname)    | Name subroutine to get control if error |
+| KEYLOC(45)                  | Number              | Specify location of key in program described file |
+| MAXDEV(*ONLY)               | *FILE               | Restricts # of acquired devices such as workstations |
+| OFLIND(OF)                  | OA-OF, OF           | Specify overflow indicator for a printer device file |
+| PASS(*NOIND)                |                     | Do programmers control indicator passage? |
+| PGMNAME(SPECDEV)            | program_name        | Provide name of program to handle special device |
+| PLIST(BIGPARMS)             | (Plist_name)        | Provide name for paramter list to be used with called or calling programs |
+| PREFIX('GRP1.')             | (prefix{:nbr_of_char_replaced}) | Prefix appended to beginning of each field in file to avoid dup names when used with other files |
+| PRTCTL(FRMCTLDS)            | (data_struct{:*COMPAT}) | Provide name of forms control data structure | 
+| RAFDATA(RAFFILE)            | Filename            | Specify the name of RAFFILE to control record processing for this file |
+| RECNO(RRN)                  | (Fieldname)         | Specify field name to contain the record # to write output records to a direct file |
+| RENAME(FM1:FM2)             | (Ext_format:Int_format) | Rename external record format for program use to avoud conflicts |
+| SAVEDS(SAVEFIELDS)          | DS Name              | Provide a DS name so that RPG will save fields for each device before each input operation |
+| SAVEIND(55)                 | number               | Simlar to SAVEDS, specify how many indicators you want to be saved |
+| SFILE(SFL3:RRN3)           | (recformat:rrnfield)  | Specify name of subfile format and field name to be used for subfile record processing. |
+| SLN(15)                    | Number (1 to 24)      | Starting line # to place record formats for this workstn file. At least one screen panel must use SLNO(*VAR) |
+| TIMFMT(*ISO)               | format{separator}     | Specify time format |
+| USROPN                     |                       | This file will bbe opened in the program - RPG will not auto open it |
