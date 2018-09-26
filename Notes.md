@@ -184,7 +184,7 @@ All line commands follow the same pattern, I did not list all of them. So obviou
 * GO - Used to display a menu
 
 
-## Specification Overview
+# Specification Overview
 When present, forms are always presented to the RPG Compiler in the following sequence:
 
 * **H** Header (control) Specification Form
@@ -197,7 +197,7 @@ When present, forms are always presented to the RPG Compiler in the following se
 * **L** Line Counter Specification (After E or F if no E)
 * **P** Subprocedure Specification Form - RPGIV Only
 
-## Header(control) Specification Form
+# Header(control) Specification Form
 Provides RPG/400 compiler with information about your program and system including:
 * Name of program
 * Date format to use
@@ -206,8 +206,9 @@ Provides RPG/400 compiler with information about your program and system includi
 
 ### Header Spec Columns
 Won't go into too much detail, will probably never reference this anyway.
+
 | **Columns** | **Description**              | **Notes**                                |
-| ----------- | -----------------------------| ---------------------------------------- |
+| ----------- | ---------------------------- | ---------------------------------------- |
 | 7-14        | Reserved                     |                                          |
 | 15          | Debug                        | Place a 1 in column 15 to activate debug |
 | 16-17       | Reserved                     |                                          |
@@ -235,7 +236,7 @@ Won't go into too much detail, will probably never reference this anyway.
 | D             | Day/month/year                                                          |
 | Y             | Year/month/day                                                          |
 
-## RPGIV Header Specification
+### RPGIV Header Specification
 Methods:
 * A control specification included in source with H in column 6
 * A data area named RPGLEHSPEC in *LIBL
@@ -243,7 +244,7 @@ Methods:
 
 
 
-## File Description and Line Counter
+# File Description and Line Counter
 
 File description specifications describe all the files a program uses. For each file, the following information will be specified:
 * Name of file
