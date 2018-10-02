@@ -349,3 +349,38 @@ There is a huge table starting on Page 97, I am not copying it over
 | SLN(15)                    | Number (1 to 24)      | Starting line # to place record formats for this workstn file. At least one screen panel must use SLNO(*VAR) |
 | TIMFMT(*ISO)               | format{separator}     | Specify time format |
 | USROPN                     |                       | This file will bbe opened in the program - RPG will not auto open it |
+
+
+# Input
+To save typing time, only Externally Described Records will be mentioned. For Program Described Records, see Page 113
+
+## Externally Described Record ID Entries
+|**RPG Cols, RPGIV Cols** | **Description**              | **Notes**                                                      |
+| ----------------------- | -----------------------------| ---------------------------------------------------------------|
+| 8-14, 7-16              | Record Name                  | External name of record format - file name cannot be used or an externally described file |
+| 16-18                   | Reserved                     | Must be blank                                                  |
+| 19-20, 21-22            | Record Identifying Indicator | Optional; Turned on if record format name in 8-14 is read by program |
+| 21-41                   | Unused                       | Must be blank                                                  |
+| 42-74                   | Reserved                     | Must be blank                                                  |
+| 75-80                   | Reserved                     | Comments or left blank                                         |
+
+## Externally Described Field Description Entries
+|**RPG Cols, RPGIV Cols** | **Description**              | **Notes**                                                          |
+| ----------------------- | ---------------------------- | ------------------------------------------------------------------ |
+| 7-20                    | Reserved                     |                                                                    |
+| 21-30, 21-30            | External Field Name          | Rename the field                                                   |
+| 31-52                   | Reserved                     |                                                                    |
+| 53-58, 49-62            | Field Name                   | Name of field as defined in external record description(<=6); Name to be used in program that replaced external name specified in 21-30 |
+| 59-60, 63-64            | Control Level                | Blank=not a control field, L1-L9=is a control field                |
+| 60-61, 65-66            | Match Fields                 | Blank=not a match field, M1-M9=Is a match field. More notes Pg 114 |
+| 63-64                   | Reserved                     |                                                                    |
+| 65-70, 69-74            | Field Indicators             | Blank=no indicator, 01-99=General indicators for programmer use, H1-H9=Halt indicators
+(cause machine to halt), U1-U8=External indicators (externally supplied), RT=Return indicator (causes return to calling program) |
+| 71-74                   | Reserved                     |                                                                    |
+| 75-80                   | Comments                     | Comments                                                           |
+
+## Program Described Record ID Entries
+Pages 115-125
+
+
+
