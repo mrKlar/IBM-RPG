@@ -12,6 +12,13 @@ I was going to have some examples of Fixed-Format RPG, but for some reason I cou
 | [Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes.md) | Subpar notes for The AS/400 & IBMi RPG & RPGIV Developer's Guide. **Will be cleaned up when I'm done this book.** |
 
 
+## Screenshots
+[![BOLIB](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)
+
+[![Hello-World](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)
+
+
+
 ## Sources and Links
 ### Books/PDFs
 * [The AS/400 & IBMi RPG & RPGIV Developer's Guide](https://www.amazon.com/gp/product/0998268313/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
@@ -40,8 +47,3 @@ I was going to have some examples of Fixed-Format RPG, but for some reason I cou
 * [AS400 Pro](http://www.as400pro.com/index.php)
 * [IBMi Competence Training](http://ibmicompetence.com/)
 * [Midrange](http://www.midrange.com/#home)
-
-## Screenshots
-[![BOLIB](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)
-
-[![Hello-World](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)
