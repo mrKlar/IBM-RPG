@@ -26,7 +26,7 @@ I was going to have some examples of Fixed-Format RPG, but for some reason I cou
 * [Orion, Git, and RPG](https://www.youtube.com/watch?v=-fbrQwBKQ_I)
 * [IBM DB2 for i and SQL Overview](https://www.youtube.com/watch?v=SB5Phy3BTQk)
 
-### Misc.
+### Misc
 * [IBMi 7.3 Documentation](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/rzahg/welcome.htm)
 * [IBMi Redbooks](http://www.redbooks.ibm.com/cgi-bin/searchsite.cgi?query=ibm+AND+i)
 * [Code400 Forum](http://www.code400.com/forum/)
@@ -38,7 +38,6 @@ I was going to have some examples of Fixed-Format RPG, but for some reason I cou
 * [IBM Systems Magazine](http://ibmsystemsmag.com/blogs/you-and-i/)
 * [IT Jungle](https://www.itjungle.com/newsletter/tfh/)
 * [AS400 Pro](http://www.as400pro.com/index.php)
-
 * [IBMi Competence Training](http://ibmicompetence.com/)
 * [Midrange](http://www.midrange.com/#home)
 
