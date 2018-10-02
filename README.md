@@ -1,4 +1,4 @@
-# IBM-RPG
+# RPGLE
 Contains notes/examples/programs for learning how to code with IBM RPG. Code is found in [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB)
 
 Obviously, these notes aren't great. But, I figured I would make these as a self reference. I doubt anyone is going to be looking to learn RPG after a few more years.
