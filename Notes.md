@@ -383,4 +383,43 @@ To save typing time, only Externally Described Records will be mentioned. For Pr
 Pages 115-125
 
 
+## Input Structures and Constants
+Pages 127-135
+
+
+# Calculations
+* Column 6 - C Spec
+* A Calculation form consists of three areas:
+ * The conditions under which the calculations are to be done
+ * The entries for the calculations
+ * The type of tests that are to be made on the results of the operation HI,LO,EQ
+
+
+|**RPG Cols, RPGIV Cols** | **Description**                  | **Notes**                                                         |
+| ----------------------- | -------------------------------- | ------------------------------------------------------------------|
+| 7-8                     | Control Level                    | See Below                                                         |
+| 10-17, ?                | Indicators                       | x > y = (+,HI,>) , x < y = (-,LO,<) , x==y = (0,EQ,=)             |
+| 18-52                   | Factors and Operators            | See Below                                                         |
+
+### C Columns 7-8 Control Level
+|**Value** | **Description**                        |
+| -------- | ---------------------------------------|
+| Blank    | A: Operation is performed at detail calculation time for each program if conditions are met, B: Operation is performed within a subroutine. |
+| L0       | Operation is done at total calculation time for each program-cycle independent of control fields.                    |
+| L1-L9    | Operation is done when the appropriate control break occurs at total calculation time, or when the indicator is set on. |
+| LR       | Operation is done after last record has been processed or after LR indicator has been set on. |
+| SR       | Calculation operation is part of an RPG/400 subroutine. A blank entry is also valid for subroutines. |
+| AN, OR   | And and Or indicators are used to group calculations to have more than one line condition the calculation. |
+
+### C Columns 18-52 Factors and Operators
+|**Function**                 | **RPG/400** | **RPGIV**       |
+| --------------------------- | ----------- | --------------- |
+| Factor 1                    | 18-27       | 12-25           |
+| Operation(plus op extender) | 28-32(none) | 26-35(extender) |
+| Factor 2                    | 33-42       | 36-49           |
+| Extended Factor 2           | N/A         | 36-80           |
+| Result Field                | 43-48       | 50-63           |
+| Length                      | 49-51       | 64-68           |
+| Decimal Places              | 52          | 69-70           |
+| Operation Extender          | 53          | N/A (26-35)     |
 
