@@ -8,8 +8,8 @@ Obviously, these notes aren't great, but I figured I would make these as a self 
 | **Name**           | **Description** |
 | ------------------ | --------------- |
 | [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB) | My AS400 Dev Library |
-| [Cheatsheet.md]() | Condensed notes that are actually usable |
-| [LetsGo_Notes.md]() | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
+| [Cheatsheet.md](https://github.com/barrettotte/RPGLE/blob/master/Cheatsheet.md) | Condensed notes that are actually usable |
+| [LetsGo_Notes.md](https://github.com/barrettotte/RPGLE/blob/master/LetGo_Notes.md) | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
 
 
 ## Screenshots
