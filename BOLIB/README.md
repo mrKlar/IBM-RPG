@@ -24,8 +24,8 @@ Barrett's test library
 ## Members . . . . . . [QRPGSRC]()
 | **Member**    | **Type** | **Text**                      |
 | ------------- | -------- | ----------------------------- |
-| [HELLORPG](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QPRGSRC/HELLORPG.RPG) | RPG | Hello World in RPG |
-| [HELLORPGR](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QPRGSRC/HELLORPGR.RPG) | RPG | Input response and display it |
+| [HELLORPG](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QRPGSRC/HELLORPG.RPG) | RPG | Hello World in RPG |
+| [HELLORPGR](https://github.com/barrettotte/RPGLE/blob/master/BOLIB/QRPGSRC/HELLORPGR.RPG) | RPG | Input response and display it |
 
 <hr>
 
