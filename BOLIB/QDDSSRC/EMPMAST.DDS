@@ -1,0 +1,10 @@
+        *************** Beginning of data ******
+FMT PF  .....A..........T.Name++++++RLen++TDpB..
+0001.00      A          R PAYR
+0002.00      A            EMPNO          3S 0
+0003.00      A            EMPNAM        20
+0004.00      A            EMPRAT         5S 2
+0005.00      A            EMPCTY        20
+0006.00      A            EMPSTA         2
+0007.00      A            EMPZIP         5S 0
+        ****************** End of data *********

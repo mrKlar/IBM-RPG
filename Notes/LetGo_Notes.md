@@ -423,3 +423,14 @@ Pages 127-135
 | Decimal Places              | 52          | 69-70           |
 | Operation Extender          | 53          | N/A (26-35)     |
 
+
+
+# RPGIV
+
+## Introduction
+
+* Convert RPG/400 to RPGIV ```CVTRPGSRC```
+
+Chapter 14 Pages 231-264 lists a ton of RPGIV operations, I don't really see the point of writing them all out right now. 
+I'd rather keep going and get a general idea of the language than torture myself with tedious nature of copying from a book.
+

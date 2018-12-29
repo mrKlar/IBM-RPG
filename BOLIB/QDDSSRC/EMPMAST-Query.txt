@@ -1,0 +1,18 @@
+NOTE: This is the sample data from EMPMAST record from LetsGo RPG
+
+                                Display Report
+                                            Report width
+Position to line  . . . . .              Shift to column
+Line   ....+....1....+....2....+....3....+....4....+....
+       EMP EMPNAM             EMP EMPCTY       EMP   EMP
+       #                      RAT              STA   ZIP
+000001   1 Bizz Nizwonger    7.80 Wilkes-Barre PA  18702
+000002   2 Warbler Jacoby    7.90 Wilkes-Barre PA  18702
+000003   3 Bing Crossley     8.55 Scranton     PA  18702
+000004   4 Uptake N. Hibiter 7.80 Fairbanks    AK  99701
+000005   5 Fenworth Gront    9.30 Fairbanks    AK  99701
+000006   7 Bi Nomial         8.80 Fairbanks    AK  99701
+000007   8 Milly Dewith      6.50 Juneau       AK  99801
+000008   9 Sarah Bayou      10.45 Juneau       AK  99801
+000009  10 Dirt McPug        6.45 Newark       NJ  07101
+****** ********  End of report ********* 

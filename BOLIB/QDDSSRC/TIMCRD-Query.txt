@@ -1,0 +1,18 @@
+NOTE: This is the sample data from TIMCRD record from LetsGo RPG
+
+                                Display Report
+                                            Report width
+Position to line  . . . . .              Shift to column
+Line   ....+....1....+....2....+....3....+....4....+....
+       EMP    EMPHRS                                 
+000001   1     35.00
+000002   2     40.00 
+000003   3     65.00
+000004   4     25.00
+000005   5     33.00
+000006   6     40.00
+000007   7     39.00
+000008   8     40.00
+000009   9     40.00
+000010  10     35.00
+****** ********  End of report ********* 

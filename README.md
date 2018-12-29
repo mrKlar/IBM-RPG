@@ -1,5 +1,5 @@
-# RPGLE
-Contains notes/examples/programs for learning how to code with IBM RPG. Code is found in [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB)
+# IBM-RPG
+Contains notes/examples/programs for learning how to code with IBM RPG. Code is found in [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB)
 
 Obviously, these notes aren't great, but I figured I would make these as a self reference. I doubt anyone is going to be looking to learn RPG after a few more years.
 
@@ -7,15 +7,15 @@ Obviously, these notes aren't great, but I figured I would make these as a self 
 ## Files/Directories
 | **Name**           | **Description** |
 | ------------------ | --------------- |
-| [BOLIB/](https://github.com/barrettotte/RPGLE/tree/master/BOLIB) | My AS400 Dev Library |
-| [Cheatsheet.md](https://github.com/barrettotte/RPGLE/blob/master/Cheatsheet.md) | Condensed notes that are actually usable |
-| [LetsGo_Notes.md](https://github.com/barrettotte/RPGLE/blob/master/LetGo_Notes.md) | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
+| [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) | My AS400 Dev Library |
+| [Notes/LetsGo_Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/LetGo_Notes.md) | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
+| [Cheatsheet.md](https://github.com/barrettotte/IBM-RPG/blob/master/Cheatsheet.md) | Condensed notes that are actually usable |
 
 
 ## Screenshots
-[![BOLIB](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/01.PNG)
+[![BOLIB](https://github.com/barrettotte/IBM-RPG/blob/master/screenshots/01.PNG)](https://github.com/barrettotte/IBM-RPG/blob/master/screenshots/01.PNG)
 
-[![Hello-World](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)](https://github.com/barrettotte/RPGLE/blob/master/screenshots/02.PNG)
+[![Hello-World](https://github.com/barrettotte/IBM-RPG/blob/master/screenshots/02.PNG)](https://github.com/barrettotte/IBM-RPG/blob/master/screenshots/02.PNG)
 
 
 

@@ -1,12 +1,9 @@
- MEMBER  . . . . . . . . . FFOR
+ MEMBER  . . . . . . . . . HELLOR
  FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
         *************** Beginning of data ************************************* 
 0001.00   /free
-0002.00   dcl-s num int(10);
-0003.00   
-0004.00   for num = 1 to 3;
-0005.00     dsply ('i = ' + %char(num));
-0006.00   endfor;
-0007.00
-0008.00   return;
+0002.00   dcl-s response char(5);
+0003.00   dsply ('Hello World') ' ' response
+0004.00   dsply (response)
+0005.00   *inlr = *on
         *****************  End of data ****************************************

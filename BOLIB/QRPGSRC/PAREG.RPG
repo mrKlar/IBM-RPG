@@ -1,0 +1,69 @@
+ MEMBER  . . . . . . . . . PAREG
+ FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
+         *************** Beginning of data **************************************
+0001.00       H* RPG HEADER (CONTROL) SPECIFICATION FORMS
+0002.00       H
+0003.00       F*
+0004.00       F* RPG FILE DESCRIPTION SPECIFICATION FORMS
+0005.00       F*
+0006.00       FEMPMAST IPEAE                    DISK
+0007.00       FTIMCRD  ISEAE                    DISK
+0008.00       FQPRINT  O   F     77      OF     PRINTER
+0009.00       I*
+0010.00       I* RPG INPUT SPECIFICATION FORMS
+0011.00       I*
+0012.00       IPAYR        01
+0013.00       I              EMPNO                            EMPNO   M1
+0014.00       I                                               EMPCTYL1
+0015.00       I              EMPSTA                           EMPSTAL2
+0016.00       ITIMR        02
+0017.00       I              EMPNO                            EMPNO   M1
+0018.00       C*
+0019.00       C* RPG CALCULATION SPECIFICATION FORMS
+0020.00       C*
+0021.00       C   02 MR   EMPRAT    MULT EMPHRS    EMPPAY  72
+0022.00       C   02 MR   EMPPAY    ADD  CTYPAY    CTYPAY  92
+0023.00       CL1         CTYPAY    ADD  STAPAY    STAPAY  92
+0024.00       CL2         STAPAY    ADD  TOTPAY    TOTPAY  92
+0025.00       O*
+0026.00       O* RPG OUTPUT SPECIFICATION FORMS
+0027.00       O*
+0028.00       OQPRINT  H  206   1P
+0029.00       O       OR  206   OF
+0030.00       O                                   32 'THE DOWALLOBY COMPANY'
+0031.00       O                                   55 'GROSS PAY REGISTER BY '
+0032.00       O                                   60 'STATE'
+0033.00       O                         UDATE Y   77
+0034.00       OQPRINT  H  3     1P
+0035.00       O       OR  3     OF
+0036.00       O                                    4 'ST'
+0037.00       O                                   13 'CITY'
+0038.00       O                                   27 'EMP#'
+0039.00       O                                   45 'EMPLOYEE NAME'
+0040.00       O                                   57 'RATE'
+0041.00       O                                   67 'HOURS'
+0042.00       O                                   77 'CHECK'
+0043.00       O        D 1      02NMR
+0044.00       O                                   46 'NO MATCHING MASTER'
+0045.00       O                         EMPNO     27
+0046.00       O                         EMPHRS1   67
+0047.00       O        D 1      02 MR
+0048.00       O                         EMPSTA     4
+0049.00       O                         EMPCTY    29
+0050.00       O                         EMPNO     27
+0051.00       O                         EMPNAM    52
+0052.00       O                         EMPRAT1   57
+0053.00       O                         EMPHRS1   67
+0054.00       O                         EMPPAY1   77
+0055.00       O        T 22     L1
+0056.00       O                                   51 'TOTAL CITY  PAY FOR'
+0057.00       O                         EMPCTY    72
+0058.00       O                         CTYPAY1B  77
+0059.00       O        T 02     L2
+0060.00       O                                   51 'TOTAL STATE PAY FOR'
+0061.00       O                         EMPSTA    54
+0062.00       O                         STAPAY1B  77
+0063.00       O        T 2      LR
+0064.00       O                         TOTPAY1   77
+0065.00       O                                   50 'FINAL TOTAL PAY'   
+        ******************* End of data *****************************************

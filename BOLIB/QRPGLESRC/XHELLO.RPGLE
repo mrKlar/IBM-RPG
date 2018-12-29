@@ -1,5 +1,5 @@
- MEMBER  . . . . . . . . . LHELLO
- FMT C  CL0N01Factor1+++++++Opcode&ExtFactor2+++++++Result++++++++Len++D+HiLoEq
+ MEMBER  . . . . . . . . . XHELLO
+ FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
         *************** Beginning of data *************************************
 0001.00 C     'Hello World' DSPLY
 0002.00 C                   SETON                                        LR
