@@ -8,7 +8,8 @@ Obviously, these notes aren't great, but I figured I would make these as a self 
 | **Name**           | **Description** |
 | ------------------ | --------------- |
 | [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) | My AS400 Dev Library |
-| [Notes/LetsGo_Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/LetGo_Notes.md) | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
+| [Notes/BCI433.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/BCI433.md) | Notes for BCI433 IBMi Business Computing | 
+| [Notes/LetGo_Notes.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/LetGo_Notes.md) | Notes for Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide. **Incomplete and ROUGH** |
 | [Cheatsheet.md](https://github.com/barrettotte/IBM-RPG/blob/master/Cheatsheet.md) | Condensed notes that are actually usable |
 
 
@@ -34,6 +35,7 @@ Obviously, these notes aren't great, but I figured I would make these as a self 
 * [IBM DB2 for i and SQL Overview](https://www.youtube.com/watch?v=SB5Phy3BTQk)
 
 ### Misc
+* [AS400i](http://as400i.com/)
 * [IBMi 7.3 Documentation](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/rzahg/welcome.htm)
 * [IBMi Redbooks](http://www.redbooks.ibm.com/cgi-bin/searchsite.cgi?query=ibm+AND+i)
 * [Code400 Forum](http://www.code400.com/forum/)

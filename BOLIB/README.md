@@ -15,6 +15,13 @@ Barrett's test library
 
 <hr>
 
+## Members . . . . . . [QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC)
+| **Member**    | **Type** | **Text**                      |
+| ------------- | -------- | ----------------------------- |
+| [HELLOCLLE](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGSRC/HELLOCLLE.CLLE) | CLLE | My first CLLE program |
+
+<hr>
+
 ## Members . . . . . . [QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC)
 | **Member**    | **Type**  | **Text**                      |
 | ------------- | --------- | ----------------------------- |
