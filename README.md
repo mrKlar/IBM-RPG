@@ -43,6 +43,7 @@ Contains Notes/examples/programs for learning RPG, CL, DDS, and DB2 SQL on the I
 
 ### Misc
 * [AS400i](http://as400i.com/)
+* [Broculos.net/AS400](https://www.broculos.net/search/label/AS%2F400)
 * [IBMi Redbooks](http://www.redbooks.ibm.com/cgi-bin/searchsite.cgi?query=ibm+AND+i)
 * [Code400 Forum](http://www.code400.com/forum/)
 * [Go4AS400](http://www.go4as400.com/)
