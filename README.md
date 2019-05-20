@@ -1,11 +1,18 @@
 # IBM-RPG
 Contains Notes/examples/programs for learning RPG, CL, DDS, and DB2 SQL on the IBMi. Code is found in [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) and is meant to mimic the way it is stored on the IBMi. Currently learning with V7R3.
 
+I hope to eventually compile this into a git-book so that other lowly young developers like me can find an easier starting point with the IBMi.
+
 
 ## Files/Directories
 | **Name**           | **Description** |
 | ------------------ | --------------- |
 | [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) | My IBMi Dev Library |
+| [BOLIB/QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC) | My CL Programs |
+| [BOLIB/QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC) | My DDS Programs |
+| [BOLIB/QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC) | My RPGLE Fixed and Free Programs |
+| [BOLIB/QRPGSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGSRC) | My RPG Programs |
+| [Format-Specs/](https://github.com/barrettotte/IBM-RPG/tree/master/Format-Specs) | ASCII templates of various format specification forms |
 | [Notes/BCI433.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/BCI433.md) | Notes for BCI433 IBMi Business Computing |
 | [Notes/](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/) | Dump of various notes. Varying quality |
 
