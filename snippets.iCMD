@@ -1,0 +1,10 @@
+# Snippets of IBMi commands
+
+QCMD
+
+# Work with all objects
+WRKOBJ OTTEB*
+
+# Work with members PDM
+WRKMBRPDM BOLIB/QRPGLESRC
+

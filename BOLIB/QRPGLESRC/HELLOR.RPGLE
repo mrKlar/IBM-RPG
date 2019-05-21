@@ -2,9 +2,9 @@
  SEU==> ____________________________________________________________     HELLOR
  FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
         *************** Beginning of data ************************************* 
-0001.00   /free
-0002.00   dcl-s response char(5);
-0003.00   dsply ('Hello World') ' ' response
-0004.00   dsply (response)
-0005.00   *inlr = *on
+0001.00  /free
+0002.00    dcl-s response char(5);
+0003.00    dsply ('Hello World') ' ' response
+0004.00    dsply (response)
+0005.00    *inlr = *on
         *****************  End of data ****************************************
