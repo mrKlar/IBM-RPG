@@ -12,9 +12,11 @@ I hope to eventually compile this into a git-book so that other lowly young deve
 | [BOLIB/QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC) | My DDS Programs |
 | [BOLIB/QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC) | My RPGLE Fixed and Free Programs |
 | [BOLIB/QRPGSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGSRC) | My RPG Programs |
+| [DB2_SQL](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/DB2_SQL) | DB2 SQL Scripts |
 | [Format-Specs/](https://github.com/barrettotte/IBM-RPG/tree/master/Format-Specs) | ASCII templates of various format specification forms |
-| [Notes/BCI433.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/BCI433.md) | Notes for BCI433 IBMi Business Computing |
 | [Notes/](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/) | Dump of various notes. Varying quality |
+| [Notes/BCI433.md](https://github.com/barrettotte/IBM-RPG/blob/master/Notes/BCI433.md) | Notes for BCI433 IBMi Business Computing |
+| [snippets.iCMD](https://github.com/barrettotte/IBM-RPG/blob/master/snippets.iCMD) | IBMi command snippets |
 
 
 ## Screenshots

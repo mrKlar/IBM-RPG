@@ -1,10 +1,30 @@
 # Snippets of IBMi commands
 
 QCMD
+STRSQL
 
-# Work with all objects
-WRKOBJ OTTEB*
+
+# Call Compiled Program
+CALL BOLIB/HELLOCLLE
+
 
 # Work with members PDM
 WRKMBRPDM BOLIB/QRPGLESRC
 
+
+# Work with all objects
+WRKOBJ OTTEB*
+
+
+WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)
+
+
+# Display all objects
+DSPOBJD OBJ(BOLIB/*ALL) OBJTYPE(*ALL)  # *PGM *FILE
+
+
+# Display physical file
+DSPPFM BOLIB/QCLLESRC
+
+
+YWRKF BOLIB/QCLLESRC
