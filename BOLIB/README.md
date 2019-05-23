@@ -7,30 +7,43 @@ Barrett's test library
 ## Source Files
 | **Source**  | **Type** | **Text**                                             |
 | ----------- | -------- | ---------------------------------------------------- |
-| [QCLLESRC](https://github.com/barrettotte/RPGLE/tree/master/BOLIB/QCLLESRC)   | PF-SRC | CLLE Source  |
-| [QDDSSRC](https://github.com/barrettotte/RPGLE/tree/master/BOLIB/QDDSSRC)     | PF-SRC | DDS Source   |
-| [QRPGLESRC](https://github.com/barrettotte/RPGLE/tree/master/BOLIB/QRPGLESRC) | PF-SRC | RPGLE Source |
-| [QRPGSRC](https://github.com/barrettotte/RPGLE/tree/master/BOLIB/QRPGSRC)     | PF-SRC | RPG Source   |
+| [QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC)   | PF-SRC | CLLE Source  |
+| [QCLSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLSRC)       | PF-SRC | CL Source    |
+| [QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC)     | PF-SRC | DDS Source   |
+| [QMISRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QMISRC)       | PF-SRC | MI Source    |
+| [QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC) | PF-SRC | RPGLE Source |
+| [QRPGSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGSRC)     | PF-SRC | RPG Source   |
 <br>
 <hr>
 
-## Members . . . . . . [QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC)
+
+## QCLLESRC Members
 | **Member**    | **Type** | **Text**                      |
 | ------------- | -------- | ----------------------------- |
-| [HELLOCLLE](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/HELLOCLLE.CLLE) | CLLE | My first CLLE program |
-<hr>
+| [FIRSTCL](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/FIRSTCL.CLLE) | CLLE | My first CLLE program |
 
-## Members . . . . . . [QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC)
+
+## QCLSRC Members
+| **Member**    | **Type** | **Text**                      |
+| ------------- | -------- | ----------------------------- |
+| [CLCRTPG](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/CLCRTPG.CLP) | CLP | Create MI program using QPRCRTPG API |
+| [TESTMI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/TESTMI01.CLP) | CLP | Test MI01 |
+
+
+## QDDSSRC Members
 | **Member**    | **Type**  | **Text**                      |
 | ------------- | --------- | ----------------------------- |
-| [EMPMAST-Query](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/EMPMAST-Query.txt) | Text File | Example report of EMPMAST |
-| [EMPMAST](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/EMPMAST.DDS) | DDS | Employee master file example |
 | [HXCVTDSP](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/HXCVTDSP.DSPF) | DSPF | Display file for Hex Converter HXCVT |
-| [TIMCRD-Query](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/TIMCRD-Query.txt) | Text File | Example report of TIMCRD |
-| [TIMCRD](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/TIMCRD.DDS) | DDS | Time Card master file example |
-<hr>
 
-## Members . . . . . . [QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC)
+
+## QCLLESRC Members
+| **Member**    | **Type** | **Text**                      |
+| ------------- | -------- | ----------------------------- |
+| [MI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/HELLOMI.MI) | MI | Hello world in MI |
+| [MI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/MI01.MI) | MI | Return larger of two packed arguments |
+
+
+## QRPGLESRC Members
 | **Member**      | **Type/Format** | **Text** |
 | --------------- | -------- | ---------|
 | [DSARR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSARR.RPGLE) | RPGLE Free | Data Structure Array |
@@ -45,13 +58,9 @@ Barrett's test library
 | [XHELLO](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/XHELLO.RPGLE) | RPGLE Fixed | Hello World |
 | [XHELLOR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/XHELLOR.RPGLE) | RPGLE Fixed | Input response and display |
 
-<hr>
 
-## Members . . . . . . [QRPGSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGSRC)
+## QRPGSRC Members
 | **Member**    | **Type** | **Text**                      |
 | ------------- | -------- | ----------------------------- |
 | [HELLORPG](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGSRC/HELLORPG.RPG) | RPG | Hello World in RPG |
 | [HELLORPGR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGSRC/HELLORPGR.RPG) | RPG | Input response and display it |
-| [PAREG](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGSRC/PAREG.RPG) | RPG | Payroll calculation example from LetsGo RPG Book |
-
-<hr>

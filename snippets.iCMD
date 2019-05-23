@@ -1,6 +1,8 @@
 # Snippets of IBMi commands
 
 QCMD
+
+# Start SQL
 STRSQL
 
 
@@ -16,6 +18,14 @@ WRKMBRPDM BOLIB/QRPGLESRC
 WRKOBJ OTTEB*
 
 
+# Work with user jobs
+WRKUSRJOB
+
+
+# Display job log
+DSPJOBLOG   # F10 detailed information
+
+
 WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)
 
 
@@ -28,3 +38,9 @@ DSPPFM BOLIB/QCLLESRC
 
 
 YWRKF BOLIB/QCLLESRC
+
+
+# Compiling an MI program with CLP
+DLTOVR QMISRC
+OVRDBF QMISRC MBR(MI01)
+CALL CLCRTPG MI01
