@@ -1,2 +1,2 @@
-*.CMD linguist vendored=false
-*.MI linguist-vendored=false
+*.CMD linguist-detectable=false
+*.MI linguist-detectable=false
