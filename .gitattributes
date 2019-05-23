@@ -1,4 +1,2 @@
-DB2_SQL
-Notes
-*.CMD
-*.MI
+*.CMD linguist vendored=false
+*.MI linguist-vendored=false
