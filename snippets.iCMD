@@ -1,9 +1,16 @@
 # Snippets of IBMi commands
 
+
+# Start QShell
 QCMD
+
 
 # Start SQL
 STRSQL
+
+
+# Start Aldon LMI
+STRLMI
 
 
 # Call Compiled Program
@@ -26,7 +33,8 @@ WRKUSRJOB
 DSPJOBLOG   # F10 detailed information
 
 
-WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)
+# Display user profile
+DSPUSRPRF OTTEB
 
 
 # Display all objects
@@ -37,10 +45,13 @@ DSPOBJD OBJ(BOLIB/*ALL) OBJTYPE(*ALL)  # *PGM *FILE
 DSPPFM BOLIB/QCLLESRC
 
 
-YWRKF BOLIB/QCLLESRC
-
-
 # Compiling an MI program with CLP
 DLTOVR QMISRC
 OVRDBF QMISRC MBR(MI01)
 CALL CLCRTPG MI01
+
+
+YWRKF BOLIB/QCLLESRC
+
+
+WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)

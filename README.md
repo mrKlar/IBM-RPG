@@ -8,9 +8,11 @@ I hope to eventually compile this into a git-book so that other lowly young deve
 | **Name**           | **Description** |
 | ------------------ | --------------- |
 | [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) | My IBMi Dev Library |
-| [BOLIB/QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC) | My CL Programs |
+| [BOLIB/QCLSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLSRC) | My CL Programs |
+| [BOLIB/QCLLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QCLLESRC) | My CLLE Programs |
 | [BOLIB/QDDSSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QDDSSRC) | My DDS Programs |
-| [BOLIB/QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC) | My RPGLE Fixed and Free Programs |
+| [BOLIB/QMISRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QMISRC) | My MI Programs |
+| [BOLIB/QRPGLESRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGLESRC) | My RPGLE Fixed/Free Programs |
 | [BOLIB/QRPGSRC](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/QRPGSRC) | My RPG Programs |
 | [DB2_SQL](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB/DB2_SQL) | DB2 SQL Scripts |
 | [Format-Specs/](https://github.com/barrettotte/IBM-RPG/tree/master/Format-Specs) | ASCII templates of various format specification forms |
@@ -36,18 +38,17 @@ I hope to eventually compile this into a git-book so that other lowly young deve
 
 
 ### Books/PDFs
+* [IBMi 7.3 ILE RPG Programmer's Guide](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/rzasc/sc092507.pdf)
+* [IBM DeveloperWorks RPG Cafe](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a)
 * [Lets Go AS/400 & IBMi RPG & RPGIV Developer's Guide](https://www.amazon.com/gp/product/0998268313/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
 * [Mastering the AS/400: A Practical Hands-On Guide](https://www.amazon.com/gp/product/1583040706/ref=oh_aui_search_detailpage?ie=UTF8&psc=1)
-* [IBM DeveloperWorks RPG Cafe](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/We13116a562db_467e_bcd4_882013aec57a)
-* [IBMi 7.3 ILE RPG Programmer's Guide](https://www.ibm.com/support/knowledgecenter/ssw_ibm_i_73/rzasc/sc092507.pdf)
 
 
 ### YouTube
-* [YouTube/ yusuf230ify](https://www.youtube.com/user/yusuf230ify/playlists)
-* [YouTube/ AS400Tutorials](https://www.youtube.com/user/AS400Tutorials/videos)
-* [RPGLE Programming 8 Videos](https://www.youtube.com/playlist?list=PLcriRITr9pA5D8YVSkAejRhNNt5Cz3QgQ)
-* [Orion, Git, and RPG](https://www.youtube.com/watch?v=-fbrQwBKQ_I)
 * [IBM DB2 for i and SQL Overview](https://www.youtube.com/watch?v=SB5Phy3BTQk)
+* [RPGLE Programming 8 Videos](https://www.youtube.com/playlist?list=PLcriRITr9pA5D8YVSkAejRhNNt5Cz3QgQ)
+* [YouTube/ AS400Tutorials](https://www.youtube.com/user/AS400Tutorials/videos)
+* [YouTube/ yusuf230ify](https://www.youtube.com/user/yusuf230ify/playlists)
 
 
 ### Misc

@@ -3,7 +3,7 @@
  FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
         *************** Beginning of data *************************************
 0001.00 H
-!FMT D  DName+++++++++++ETDsFrom+++To/L+++IDc.Keywords+++++++++++++++++++++++++
+ FMT D  DName+++++++++++ETDsFrom+++To/L+++IDc.Keywords+++++++++++++++++++++++++
 0002.00 D num1            S              5S 0
 0003.00 D num2            S              5P 0
 0004.00 D num3            S              5S 2
@@ -25,7 +25,7 @@
 0019.00    Dsply %Char(num3);      // 3.33
 0020.00    Dsply %Char(num4);      // 3.333
 0021.00    Dsply num2;             // 100
-0022.00    Dsply num1;             // 
+0022.00    Dsply num1;             //
 0023.00
 0024.00    date1 = %Date();
 0025.00    time1 = %Time();

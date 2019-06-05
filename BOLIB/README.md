@@ -39,7 +39,6 @@ Barrett's test library
 ## QCLLESRC Members
 | **Member**    | **Type** | **Text**                      |
 | ------------- | -------- | ----------------------------- |
-| [MI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/HELLOMI.MI) | MI | Hello world in MI |
 | [MI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/MI01.MI) | MI | Return larger of two packed arguments |
 
 
