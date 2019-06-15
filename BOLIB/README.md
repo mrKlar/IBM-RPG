@@ -36,7 +36,7 @@ Barrett's test library
 | [HXCVTDSP](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QDDSSRC/HXCVTDSP.DSPF) | DSPF | Display file for Hex Converter HXCVT |
 
 
-## QCLLESRC Members
+## QMISRC Members
 | **Member**    | **Type** | **Text**                      |
 | ------------- | -------- | ----------------------------- |
 | [MI01](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QCLLESRC/MI01.MI) | MI | Return larger of two packed arguments |
@@ -45,14 +45,22 @@ Barrett's test library
 ## QRPGLESRC Members
 | **Member**      | **Type/Format** | **Text** |
 | --------------- | -------- | ---------|
+| [ARRAY](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/ARRAY.RPGLE) | RPGLE | Arrays |
+| [DATATYPES](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DATATYPES.RPGLE) | RPGLE | Data Types |
+| [DS](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DS.RPGLE) | RPGLE | Data structure intro |
 | [DSARR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSARR.RPGLE) | RPGLE Free | Data Structure Array |
+| [DSOFDS](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSOFDS.RPGLE) | RPGLE | Data structure of data structures |
+| [DSOVERLY](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSOVERLY.RPGLE) | RPGLE | Overlay of data structure field |
+| [DSTMPLT](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSTMPLT.RPGLE) | RPGLE | Data structure templates |
 | [DSTRUCT](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DSTRUCT.RPGLE) | RPGLE Free | Data Structure |
+| [DTAARADS](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/DTAARADS.RPGLE) | RPGLE | Data area data structure |
 | [FIZZBUZZ](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/FIZZBUZZ.RPGLE) | RPGLE Free | The classic Fizzbuzz in RPGLE Free |
 | [FOR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/FOR.RPGLE) | RPGLE Free | For Loop |
 | [HELLO](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/HELLO.RPGLE) | RPGLE Free | Hello World |
 | [HELLOR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/HELLOR.RPGLE) | RPGLE Free | Input response and display |
 | [HXCVT](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/HXCVT.RPGLE) | RPGLE Free | Convert Hex digit to decimal with DSPF HXCVTDSP |
 | [PGMCALL](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/PGMCALL.RPGLE) | RPGLE Free | Call a Program - QCMDEXC (Work With Spool Files) |
+| [PSDS](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/PSDS.RPGLE) | RPGLE | Program status data structure |
 | [SCLARR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/SCLARR.RPGLE) | RPGLE Free | Scalar Array and Date |
 | [XHELLO](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/XHELLO.RPGLE) | RPGLE Fixed | Hello World |
 | [XHELLOR](https://github.com/barrettotte/IBM-RPG/blob/master/BOLIB/QRPGLESRC/XHELLOR.RPGLE) | RPGLE Fixed | Input response and display |

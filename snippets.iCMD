@@ -55,3 +55,12 @@ YWRKF BOLIB/QCLLESRC
 
 
 WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)
+
+
+# Display data area
+DSPDTAARA *LDA
+# LDA -> default data area
+
+
+# Change data area
+CHGDTAARA
