@@ -15,9 +15,7 @@
 0010.00   student.firstName = 'Barrett';
 0011.00   student.lastName = 'Otte';
 0012.00
-0013.00   
-
-
+0013.00
 0014.00
 0015.00   *INLR = *ON;
 0016.00  /end-free
