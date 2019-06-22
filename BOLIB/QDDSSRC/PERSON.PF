@@ -1,0 +1,11 @@
+ Columns . . . :    1   71                                        BOLIB/QDDSSRC
+ SEU==> ____________________________________________________________     PERSON
+ FMT PF .....A..........T.Name++++++RLen++TDpB......Functions++++++++++++++++++
+        *************** Beginning of data ************************************* 
+0001.00                 R PERSONFMT
+0002.00                   PERSONID       5S 0
+0003.00                   FIRSTNAME     20A
+0004.00                   LASTNAME      20A
+0005.00                   AGE            3S 0
+0006.00                 K PERSONID
+        *****************  End of data ****************************************

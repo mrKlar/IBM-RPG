@@ -64,3 +64,32 @@ DSPDTAARA *LDA
 
 # Change data area
 CHGDTAARA
+
+
+# Call physical file
+STRSQL
+SELECT * FROM BOLIB/QDDSSRC/MYPF
+
+
+# Update physical file
+UPDDTA BOLIB/QDDSSRC/MYPF
+
+
+# Change physical file
+CHGPF BOLIB/QDDSSRC/MYPF
+
+
+# Add new member to physical file
+ADDPFM BOLIB/QDDSSRC/PF1
+
+
+# Run query
+RUNQRY QRYFILE((BOLIB/QDDSSRC/MYPF))
+
+
+# Display file description
+DSPFD BOLIB/QDDSSRC/MYPF
+
+
+# Display file field description
+DSPFFD BOLIB/QDDSSRC/MYPF

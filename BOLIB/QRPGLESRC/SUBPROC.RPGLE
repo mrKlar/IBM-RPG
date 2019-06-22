@@ -19,16 +19,17 @@
 0012.00    dsply C;
 0013.00    *INLR = *ON;
 0014.00  /end-free
-0015.00 P addProc         B
-0016.00 D addProc         PR
-0017.00 D                 PI             4S 0 
-0018.00 D num1                           3S 0 const
-0019.00 D num2                           3S 0 const
-0020.00 D sum             S              4S 0
-0020.00 D
-0016.00  /free
-0017.00    sum = num1 + num2;
-0018.00    return sum;
-0018.00  /end-free
-0019.00 P addProc         E
+0016.00  *
+0017.00 P addProc         B
+0018.00 D addProc         PR
+0019.00 D                 PI             4S 0 
+0020.00 D num1                           3S 0 const
+0021.00 D num2                           3S 0 const
+0022.00 D sum             S              4S 0
+0023.00 D
+0024.00  /free
+0025.00    sum = num1 + num2;
+0026.00    return sum;
+0027.00  /end-free
+0028.00 P addProc         E
         ****************** End of data ****************************************
