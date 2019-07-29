@@ -1,30 +1,26 @@
- Columns . . . :    1   71                                         BOLIB/QMISRC
- SEU==> ____________________________________________________________       MI01
- FMT **  ...+... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7
-        *************** Beginning of data *************************************
-0001.00 /* RETURN LARGER OF TWO PACKED ARGUMENTS */
-0002.00
-0003.00 ENTRY * (PARM_LIST) EXT;
-0004.00 DCL     SPCPTR      ARG1@      PARM;
-0005.00 DCL     SPCPTR      ARG2@      PARM;
-0006.00 DCL     SPCPTR      RESULT@    PARM;
-0007.00
-0008.00 /* ASSOCIATE SPACE POINTERS WITH PARAMS PASSED TO PROGRAM */
-0009.00 DCL     OL          PARM_LIST
-0010.00                    (ARG1@,
-0011.00                     ARG2@,
-0012.00                     RESULT@)
-0013.00                     PARM       EXT;
-0014.00 DCL     DD          ARG1       PKD(15,5)     BAS(ARG1@);
-0015.00 DCL     DD          ARG2       PKD(15,5)     BAS(ARG2@);
-0016.00 DCL     DD          RESULT     PKD(15,5)     BAS(RESULT@);
-0017.00
-0018.00 /* START INSTRUCTION STREAM */
-0019.00
-0020.00         CMPNV(B)    ARG1,ARG2  / LO(ITS2);
-0021.00         CPYNV       RESULT,ARG1;
-0022.00         B           RETURN;
-0023.00 ITS2:   CPYNV       RESULT,ARG2;
-0024.00 RETURN: RTX         *;
-0025.00         PEND;
-        *****************  End of data ****************************************
+/* RETURN LARGER OF TWO PACKED ARGUMENTS */
+
+
+ENTRY * (PARM_LIST) EXT;
+DCL     SPCPTR      ARG1@      PARM;
+DCL     SPCPTR      ARG2@      PARM;
+DCL     SPCPTR      RESULT@    PARM;
+
+/* ASSOCIATE SPACE POINTERS WITH PARAMS PASSED TO PROGRAM */
+DCL     OL          PARM_LIST
+                   (ARG1@,
+                    ARG2@,
+                    RESULT@)
+                    PARM       EXT;
+DCL     DD          ARG1       PKD(15,5)     BAS(ARG1@);
+DCL     DD          ARG2       PKD(15,5)     BAS(ARG2@);
+DCL     DD          RESULT     PKD(15,5)     BAS(RESULT@);
+
+/* START INSTRUCTION STREAM */
+
+        CMPNV(B)    ARG1,ARG2  / LO(ITS2);
+        CPYNV       RESULT,ARG1;
+        B           RETURN;
+ITS2:   CPYNV       RESULT,ARG2;
+RETURN: RTX         *;
+        PEND;

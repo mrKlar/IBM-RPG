@@ -1,16 +1,11 @@
- Columns . . . :    6   76                                      BOLIB/QRPGLESRC
- SEU==> ____________________________________________________________        FOR
- FMT ** ... 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+.
-        *************** Beginning of data ************************************* 
-0001.00  /free
-0002.00   dcl-s num int(10);
-0003.00   
-0004.00   for num = 1 to 3;
-0005.00     dsply ('i = ' + %char(num));
-0006.00   endfor;
-0007.00   for num = 5 downto 1 by 1;
-0008.00     dsply ('i = ' + %char(num));
-0009.00   endfor;
-0010.00
-0011.00   return;
-        *****************  End of data ****************************************
+      /free
+       dcl-s num int(10);
+   
+       for num = 1 to 3;
+         dsply ('i = ' + %char(num));
+       endfor;
+       for num = 5 downto 1 by 1;
+         dsply ('i = ' + %char(num));
+       endfor;
+
+       return;

@@ -1,10 +1,5 @@
- Columns . . . :    1   71                                        BOLIB/QRPGSRC
- SEU==> ____________________________________________________________   HELLORPG 
- FMT C  .....CL0N01N02N03Factor1+++OpcdeFactor2+++ResultLenDHHiLoEqComments++++
-        *************** Beginning of data *************************************
-0001.00      C                     MOVEL'HELLO'   HELLO  11
-0002.00      C                     MOVE 'WORLD'   HELLO
-0003.00      C           HELLO     DSPLY          RESPON  5
-0004.00      C           RESPON    DSPLY
-0005.00      C                     SETON                     LR
-        ******************* End of data ***************************************
+      C                     MOVEL'HELLO'   HELLO  11
+      C                     MOVE 'WORLD'   HELLO
+      C           HELLO     DSPLY          RESPON  5
+      C           RESPON    DSPLY
+      C                     SETON                     LR

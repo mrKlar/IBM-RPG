@@ -1,0 +1,6 @@
+PGM
+  dcl &var1 *char 48
+  SndUsrMsg MSG('Input something') +
+        MSGTYPE(*INQ) MSGRPY(&var1)
+  SndUsrMsg MSG(&var1)
+ENDPGM

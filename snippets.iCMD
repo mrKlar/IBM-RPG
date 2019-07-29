@@ -55,3 +55,11 @@ YWRKF BOLIB/QCLLESRC
 
 
 WRKOBJ OBJ(*ALL/QUSRSYS) OBJTYPE(*LIB)
+
+
+# Work with active jobs
+WRKACTJOB
+
+
+# Change device description
+CHGDEVDSP DEVD(WORKSTN)

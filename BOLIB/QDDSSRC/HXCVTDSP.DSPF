@@ -1,18 +1,13 @@
- Columns . . . :    1   71                                        BOLIB/QDDSSRC
- SEU==> ____________________________________________________________   HXCVTDSP
- FMT DP .....AAN01N02N03T.Name++++++RLen++TDpBLinPosFunctions++++++++++++++++++
-        *************** Beginning of data ************************************* 
-0001.00      A          R RECORD1                   CF03(03 'EXIT')
-0002.00      A                                  2 18'MY SIMPLE HEX CONVERTER'
-0003.00      A                                  2  4USER
-0004.00      A                                  3  4SYSNAME
-0005.00      A                                  2 65DATE EDTCDE(Y)
-0006.00      A                                  3 65TIME
-0007.00      A                                  5 15'ENTER A HEX DIGIT:'
-0008.00      A            HNUM           1   B  5 35
-0009.00      A          R RECORD2                   OVERLAY
-0010.00      A                                      CF03(03 'EXIT')
-0011.00      A                                  7 15'DECIMAL EQUIVALENT:'
-0012.00      A            DNUM           2S 0B  7 35
-0013.00      A                                 19  3'F3=EXIT'
-        *****************  End of data ****************************************
+     A          R RECORD1                   CF03(03 'EXIT')
+     A                                  2 18'MY SIMPLE HEX CONVERTER'
+     A                                  2  4USER
+     A                                  3  4SYSNAME
+     A                                  2 65DATE EDTCDE(Y)
+     A                                  3 65TIME
+     A                                  5 15'ENTER A HEX DIGIT:'
+     A            HNUM           1   B  5 35
+     A          R RECORD2                   OVERLAY
+     A                                      CF03(03 'EXIT')
+     A                                  7 15'DECIMAL EQUIVALENT:'
+     A            DNUM           2S 0B  7 35
+     A                                 19  3'F3=EXIT'
