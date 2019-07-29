@@ -47,7 +47,7 @@ I hope to eventually compile this into a git-book so that other lowly young deve
 * [IBM DB2 for i and SQL Overview](https://www.youtube.com/watch?v=SB5Phy3BTQk)
 * [RPGLE Programming 8 Videos](https://www.youtube.com/playlist?list=PLcriRITr9pA5D8YVSkAejRhNNt5Cz3QgQ)
 * [YouTube/ AS400Tutorials](https://www.youtube.com/user/AS400Tutorials/videos)
-* [YouTube/ yusuf230ify](https://www.youtube.com/user/yusuf230ify/playlists)
+* **[YouTube/ yusuf230ify](https://www.youtube.com/user/yusuf230ify/playlists)**
 
 
 ### Misc
