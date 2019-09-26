@@ -1,7 +1,9 @@
 # IBM-RPG
 Contains Notes/examples/programs for learning RPG, CL, DDS, and DB2 SQL on the IBMi. Code is found in [BOLIB/](https://github.com/barrettotte/IBM-RPG/tree/master/BOLIB) and is meant to mimic the way it is stored on the IBMi. Currently learning with V7R3.
 
-I hope to eventually compile this into a git-book so that other lowly young developers like me can find an easier starting point with the IBMi.
+
+These notes and programs are being used in my book **Learning the IBMi as a Lowly Web Developer**;
+located at https://barrettotte.github.io/IBMi-Book/#/
 
 
 ## Files/Directories
